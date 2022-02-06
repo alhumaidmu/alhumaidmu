@@ -1,0 +1,58 @@
+        html, body {
+            font-family: 'Tajawal', serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+
+        .logos-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap-reverse;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .logos-row .medad-logo, .logos-row .naseej-logo {
+            height: 32px;
+        }
+
+        .page-title{
+            background-color: #a12025;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .licence-section {
+            padding:0 5vw;
+            padding-top: 60px;
+        }
+
+        .licence-text {
+            text-align: right;
+            margin: 0;
+            line-height: 32px;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+
+        .highlight-text{
+            padding: 0 5px;
+            color: #a12025;
+            font-weight: bold;
+        }
+
+        .actions-row {
+            padding: 20px 5vw;
+            display: flex;
+        }
+
+        .agree-button {
+            background: #a12025;
+            border: navajowhite;
+            padding: 8px 20px;
+            color: white;
+            font-family: 'Tajawal', serif;
+        }
